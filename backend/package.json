@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@react-pdf/renderer": "^3.4.4",
+    "bootstrap": "^5.3.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.2"
+  },
+  "name": "sopt",
+  "version": "1.0.0",
+  "description": "This is a schedule optimizer made with data from umd.io/",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "devStart": "nodemon server.js"
+  },
+  "author": "Madeline Moldrem",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
