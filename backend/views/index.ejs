@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Scheduler</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <h1>Welcome to class scheduler!</h1>
+  <!-- note post request -->
+  <form action="/schedules/create" method="POST"> 
+
+
+      <!-- classes variable -->
+    <label for="classes">Enter your classes:</label>
+    <input type="text" name="classes" id="classes" placeholder="e.g., CS101, MATH240">
+    <br>
+
+
+     <!-- times variable -->
+     <label for="times">What are your preferred class windows?</label>
+     <input type="text" name="classes" id="classes" placeholder="e.g., CS101, MATH240">
+     <br>
+
+
+      <!-- priorities variable. want this to be a drag ranking -->
+    <label for="priorities">Enter your priorities:</label>
+    <input type="text" name="priorities" id="priorities" placeholder="e.g., Less workload, Morning classes">
+    <br>
+
+
+
+    <!-- the Button -->
+    <button type="submit">Generate Schedule</button>
+  </form>
+</body>
+</html>
